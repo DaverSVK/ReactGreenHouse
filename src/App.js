@@ -31,7 +31,7 @@ function App() {
     Controller.getZaznamy().then((response) => {
       setZaznamy(response.data);
     });
-  });
+  },[]);
 
   return (
     <div>
