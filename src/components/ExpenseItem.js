@@ -3,10 +3,11 @@ import "./ExpenseItem.css";
 import Controller from '../Controller';
 import ExpenseDate  from "./ExpenseDate";
 function ExpenseItem(props) {
-
+  const dateFull =new String(props.date);
+  
   return (
     <tr className="expense-item">
-      <td>{props.date}</td>
+      <td><ExpenseDate date={dateFull}/></td>
       
         <td className="expense-item__description"><h2>Temperature: {props.temperature}</h2></td>
         <td className="expense-item__description"><h2>Humidity: {props.humidity}</h2></td>
