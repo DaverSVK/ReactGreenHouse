@@ -4,4 +4,4 @@ Should be a Web/Mobile app with the abillity of changing settings on Automatic g
 #### - Raspberry pi zero WH
 #### - sensors: DHT11, Capacitive soil moisture
 #### - Add ons: LCD 16x2 display
-#### - Sowtware: Heroku, libs for sensrs
+#### - Sowtware: Heroku, Program for colecting and sending data
